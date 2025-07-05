@@ -12,7 +12,7 @@ def load_data():
     return pd.read_csv("fitness_dt.csv")
 
 df = load_data()
-modelo = joblib.load("modelo_random_forest_ilyas.pkl")
+modelo = joblib.load("modelo_random_forest.pkl")
 
 st.title("✨ POSH COLLECTIVE LAB!")
 st.markdown("Conectar cuerpo y mente. Esta app predice tu estado post-entrenamiento para ayudarte a encontrar equilibrio, sentirte mejor y cuidar tu salud mental. 🧘‍♀️💚")
